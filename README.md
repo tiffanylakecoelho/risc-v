@@ -50,7 +50,7 @@ Included in this repo:
 4. Step through cycles or use the CLI tester:
 
 ```bash
-java -jar big-red-logisim.jar --test-risc test_suite.txt RISCV.circ
+java -jar logisim.jar --test-risc test_suite.txt RISCV.circ
 ```
 
 ## 🧾 Highlights
@@ -59,3 +59,4 @@ java -jar big-red-logisim.jar --test-risc test_suite.txt RISCV.circ
 * Built immediate generator and ALU control logic
 * Verified edge cases and instruction correctness with cycle-limited tests
 * Demonstrated complete 32-bit byte manipulation in RISC-V assembly
+
